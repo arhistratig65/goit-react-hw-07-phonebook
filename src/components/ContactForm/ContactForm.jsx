@@ -1,4 +1,3 @@
-import propTypes from 'prop-types';
 import React, { useState } from 'react';
 import { Button, FieldName, Form, Input } from './ContactForm.styled';
 import { useDispatch, useSelector } from 'react-redux';
@@ -83,8 +82,3 @@ function ContactForm() {
 
 export default ContactForm;
 
-ContactForm.propTypes = {
-  name: propTypes.string,
-  number: propTypes.string,
-  onSubmit: propTypes.func,
-};

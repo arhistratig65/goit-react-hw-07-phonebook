@@ -1,4 +1,3 @@
-import PropType from 'prop-types';
 import React from 'react';
 import { FieldName, Input, Label } from './Filter.styled';
 import { useDispatch } from 'react-redux';
@@ -28,7 +27,3 @@ const Filter = () => {
 
 export default Filter;
 
-Filter.propTypes = {
-  filter: PropType.string,
-  onFilterChange: PropType.func,
-};
